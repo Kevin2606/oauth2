@@ -1,5 +1,5 @@
 # Autenticacion con Oauth2.0
-Creacion de autenticacion con Oauth2
+Creacion de autenticacion con Oauth2 utilizando la libreria [PassportJS](https://www.passportjs.org/) y [express-session](https://www.npmjs.com/package/express-session).
 
 ## Dependencias
 ```bash
@@ -8,17 +8,21 @@ npm i -E express express-session passport
 > Opciones de autenticación
 - Google
     ```bash
-    passport-google-oauth20
+    npm i -E passport-google-oauth20
     ```
 - Discord
     ```bash
-    passport-discord
+    npm i -E passport-discord
     ```
 - Facebook
     ```bash
-    passport-facebook
+    npm i -E passport-facebook
     ```
 - Twitter
     ```bash
-    passport-twitter
+    npm i -E passport-twitter
     ```
+> Dependencia de desarrollo
+```bash
+npm i -E -D nodemon
+```
