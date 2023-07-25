@@ -6,19 +6,19 @@ Creacion de autenticacion con Oauth2 utilizando la libreria [PassportJS](https:/
 npm i -E express dotenv express-session passport
 ```
 > Opciones de autenticación
-- Google
+- Google: [Google Console Developer](https://console.cloud.google.com/)
     ```bash
     npm i -E passport-google-oauth20
     ```
-- Discord
+- Discord: [Discord Developer](https://discord.com/developers/applications)
     ```bash
     npm i -E passport-discord
     ```
-- Facebook
+- Facebook: [Meta for Developers](https://developers.facebook.com/)
     ```bash
     npm i -E passport-facebook
     ```
-- Twitter
+- Twitter: [Twitter Developer Platform](https://developer.twitter.com/)
     ```bash
     npm i -E passport-twitter
     ```
